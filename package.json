@@ -8,5 +8,5 @@
     "prepare": "husky",
     "commitlint": "commitlint --edit"
   },
-  "type": "module"
+  "type": "commanjs"
 }
