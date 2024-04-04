@@ -1,11 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h3><u>Personal Details</u></h3>
+      </div>
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details"> Full Name: </span>
+            <input type="text" placeholder="Enter your name" required />
+          </div>
+
+          <div class="input-box">
+            <span class="details"> Father's Name: </span>
+            <input type="text" placeholder="Enter your username" required />
+          </div>
+
+          <div class="input-box">
+            <span class="details"> Month & Year of Passing: </span>
+            <input type="month" placeholder="Enter qualifying time" required />
+          </div>
+
+          <div class="input-box">
+            <span class="details"> Email: </span>
+            <input type="text" placeholder="Enter your email id" required />
+          </div>
+
+          <div class="input-box">
+            <span class="details"> Phone Number: </span>
+            <input
+              type="number"
+              placeholder="Enter your phone number"
+              required
+            />
+          </div>
+
+          <div class="input-box">
+            <span class="details"> Date of Birth: </span>
+            <input type="date" placeholder="Enter your password" required />
+          </div>
+
+          <div class="input-box">
+            <span class="details">Password: </span>
+            <input type="text" placeholder="Enter Your Password" required />
+          </div>
+          <div class="input-box">
+            <span class="details"> Confirm Password </span>
+            <input type="text" placeholder="Confirm Password" required />
+          </div>
+
+          <div class="gender-details">
+            <input type="radio" name="gender" id="dot-1" />
+            <input type="radio" name="gender" id="dot-2" />
+            <input type="radio" name="gender" id="dot-3" />
+            <span class="gender-title">Gender:</span>
+            <div class="category">
+              <label for="dot-1">
+                <span class="dot one"></span>
+                <span class="gender">Male</span>
+              </label>
+              <label for="dot-2">
+                <span class="dot two"></span>
+                <span class="gender">Female</span>
+              </label>
+              <label for="dot-3">
+                <span class="dot three"></span>
+                <span class="gender">Prefer not to say</span>
+              </label>
+            </div>
+            <br />
+            <h3><u>Academic Details</u></h3>
+            <br />
+            <div class="input-box">
+              <span class="details"> School Name: </span>
+              <input
+                type="text"
+                placeholder="Enter your school name"
+                required
+              />
+            </div>
+
+            <div class="input-box">
+              <span class="details">Percentage\CGPA: </span>
+              <input
+                type="text"
+                placeholder="Enter your Percentage\CGPA"
+                required
+              />
+            </div>
+
+            <div class="input-box">
+              <span class="details"> Month & Year of Passing: </span>
+              <input type="month" required />
+            </div>
+
+            <div class="input-box">
+              <span class="details"> Institute of Bachelorette: </span>
+              <input
+                type="text"
+                placeholder="Enter Bachelorette name"
+                required
+              />
+            </div>
+
+            <div class="input-box">
+              <span class="details"> Percentage\CGPA: </span>
+              <input
+                type="number"
+                placeholder="Enter your Percentage\CGPA"
+                required
+              />
+            </div>
+
+            <div class="input-box">
+              <span class="details"> Month & Year of Passing: </span>
+              <input type="month" required />
+            </div>
+            <div class="input-box">
+              <span class="details"> Institute of Doctrate: </span>
+              <input type="text" placeholder="Enter Doctrate name" required />
+            </div>
+
+            <div class="input-box">
+              <span class="details"> Percentage\CGPA: </span>
+              <input
+                type="number"
+                placeholder="Enter your Percentage\CGPA"
+                required
+              />
+            </div>
+
+            <div class="input-box">
+              <span class="details"> Month & Year of Passing: </span>
+              <input type="month" required />
+            </div>
+            <br />
+            <p>
+              I hereby confirm that all the details provided above are correct
+              as best of my knowledge.
+            </p>
+            <br />
+            <div class="button">
+              <input type="submit" value="Submit" />
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
 </html>
